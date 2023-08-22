@@ -1,0 +1,38 @@
+.modal-blur {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba($color: #000000, $alpha: 0.7);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  .modal-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    .modal-main {
+      background-color: aliceblue;
+      width: 50%;
+      padding: 20px;
+      border-radius: 10px;
+
+      .modal-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+          margin: 0;
+        }
+
+        .close-btn {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
